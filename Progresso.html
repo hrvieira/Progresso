@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
+<title>O que há de novo?</title>
+
+<Head>
+  <h1>Testes com botão, link e imagem com configuração de tamanhos</h1>
+</Head>
+
 
 <body>
-  <title>O que há de novo?</title>
 
-  <div>
-
-    <Head>
-      <h1>Testes com botão, link e imagem com configuração de tamanhos</h1>
-    </Head>
-  </div>
   <div>
     <ul>
       <li>Home</li>
@@ -23,11 +22,38 @@
       <ol><a href="https:www.google.com">Portfólio</a></ol>
     </ul>
   </div>
-  <div><br>
+  <div>
     <a href="https://www.instagram.com/coach.henrique">
       <img src="\Mimo\img\img instagram head.png" height="80" width="140"></a>
     <h4>Quer saber mais?</h4>
     <button>Sim</button><button>Não</button>
+  </div><br>
+  <div>
+    <form>
+      <fieldset>
+        <legend>Registro</legend>
+        <label for="name">Nome:</label> <input id="name" type="text" placeholder="Nome"><br>
+        <label for="date">Nascimento:</label> <input id="date" type="date" placeholder="Nascimento"><br>
+        <label for="email">E-mail:</label> <input id="email" type="email" placeholder="E-mail"><br>
+        <label for="celular"> Celular:</label> <input id="celular" type="tel" placeholder="Celular"><br>
+        Cor favorita: <input type="color" placeholder="cor"><br>
+        <button>Registrar</button>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Logar</legend>
+        <label for="user">Usuário:</label> <input id="user" type="text" placeholder="Usuário"><br>
+        <label for="password">Senha:</label> <input id="password" type="password" placeholder="Senha"><br>
+        <button>Entrar</button><button>Esqueci minha senha</button>
+      </fieldset>
+    </form>
+  </div>
+  <div>
+    <p><time>19/10/2022</time></p>
+    <address>100 Main St. Austin, <abbr>TX</abbr> 78741<br>
+      Celular:<a href="tel:+5521999999999">(21)99999-9999</a><br>
+      E-mail:<a href="mailto:jim@rock.com">jim@rock.com</a></address>
   </div>
 </body>
 
